@@ -15,7 +15,7 @@ namespace DS4WinWPF.DS4Forms.ViewModels
 {
     class UpdaterWindowViewModel
     {
-        public const string CHANGELOG_URI = "https://raw.githubusercontent.com/Ryochan7/DS4Windows/jay/DS4Windows/Changelog.min.json";
+        public const string CHANGELOG_URI = "https://raw.githubusercontent.com/EmeraldSysDev/DS4Windows/master/DS4Windows/Changelog.min.json";
 
         private string newversion;
         public string Newversion { get => newversion; }
