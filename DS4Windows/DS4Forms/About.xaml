@@ -11,7 +11,7 @@
         <local:AboutImgPathLocations x:Key="aboutImgPathLocs" />
     </Window.Resources>
     <DockPanel>
-        <Label x:Name="headerLb" Content="DS4Windows - Ryochan7 Build (Version " DockPanel.Dock="Top" HorizontalAlignment="Center" />
+        <Label x:Name="headerLb" Content="DS4Windows - elementemerald Build (Version " DockPanel.Dock="Top" HorizontalAlignment="Center" />
         <StackPanel Orientation="Horizontal" DockPanel.Dock="Top" HorizontalAlignment="Center" Margin="0,4,0,0">
             <Button x:Name="githubSocialBtn" Click="GithubSocialBtn_Click"
                     BorderBrush="{x:Null}" Background="{x:Null}" Cursor="Hand" ToolTip="GitHub">
@@ -66,6 +66,9 @@ Scan Code: Keys are interpreted differently. May be needed for certain games
                         </StackPanel>
                         <StackPanel Orientation="Horizontal">
                             <TextBlock><Hyperlink x:Name="electrobrainsLink" Click="ElectrobrainsLink_Click" Foreground="{DynamicResource AccentColor}">electrobrains (Branched off of)</Hyperlink></TextBlock>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock><Hyperlink x:Name="ryochan7Link" Click="Ryochan7Link_Click" Foreground="{DynamicResource AccentColor}">Ryochan7 (Original)</Hyperlink></TextBlock>
                         </StackPanel>
                         <Label Content="Translators:" Margin="0,20,0,0" />
                     </StackPanel>
