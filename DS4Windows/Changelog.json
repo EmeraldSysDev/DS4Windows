@@ -4,6 +4,26 @@
   "updated_at": "2022-07-10T02:13:52+0000",
   "changelog": {
     "versions": [
+        {
+            "version_str": "3.1.1",
+            "version_number_info": {
+                "majorPart": 3,
+                "minorPart": 1,
+                "buildPart": 1
+            },
+            "base_header": "Version 3.1.1",
+            "release_date": "2022-07-19T22:21:27+0000",
+            "locales": [
+                {
+                    "code": "en",
+                    "header": "Version 3.1.1",
+                    "log_text": [ "* Executables have been resigned" ],
+                    "editor": "elementemerald",
+                    "editors_note": [ "" ],
+                    "updated_at": "2022-07-19T22:21:27+0000"
+                }
+            ]
+        },
     {
       "version_str": "3.1.0",
       "version_number_info": {"majorPart": 3, "minorPart": 1, "buildPart": 0},
